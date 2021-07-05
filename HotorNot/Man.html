@@ -1,0 +1,213 @@
+<html> 
+    <head>
+      <link href="./resources/css/home.css" type="text/css" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+        <title>
+HotorNot 
+        </title> 
+        <script>  
+          function displayRandomImages()   
+          {  
+             //array of images with image location, height, and width  
+             var imageArray = [  
+            { src: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/david-beckham-kapsel-1537775094.jpg",  
+               //size for the image to be display on webpage  
+               width: "625",  
+               height: "375"
+             },   
+             {  
+               src: "https://media.nu.nl/m/f2gxn4iag9ar_wd1280.jpg/zac-efron-weer-vrijgezel-na-breuk-met-australische-vriendin.jpg",  
+               width: "625",  
+               height: "375"
+             },   
+             {  
+               src: "https://nl.metrotime.be/sites/default/files/dpistyles/ena_16_9_extra_big/node_165854/324426/public/old_wp_content/wp_import_content/20210509/bradpittbelga_0.png?itok=pj2S1HJk1620517715",  
+               width: "625",  
+               height: "375"
+             },
+             {  
+               src: "https://media.nu.nl/m/49yxbu5a0kyr_xwd640.jpg/chris-hemsworth-feliciteert-verkeerde-chris-evans.jpg",
+               width: "625",
+               height: "375"
+              },
+            { src: "https://img.static-rmg.be/a/view/q100/w900/h600/1008512/ryan-gosling.jpg",
+              width: "625",
+              height: "375" },
+
+
+              
+
+              {
+                src: "https://images0.persgroep.net/rcs/bDAbk_rpBGBVv6FjeD-2nUoWLVQ/diocontent/202104238/_fitwidth/694/?appId=21791a8992982cd8da851550a453bd7f&quality=0.8",
+                width: "625",
+                height: "375"
+              },
+
+              {
+                src: "https://images0.persgroep.net/rcs/n8BIcQl-cL3ZX_ybG7B8AIJQaKI/diocontent/63787555/_crop/1/1/899/508/_fitwidth/694/?appId=21791a8992982cd8da851550a453bd7f&quality=0.8",
+                width: "625",
+                height: "375"
+              },
+
+              {
+                src: "https://images.superguide.nl/lbvRsqMtTNi4dan0x38CmpDo3RY=/0x0:3000x2297/890x0/smart/superguide.nl/s3fs-public/main_media/jared_leto_pakt_de_hoofdrol_in_nieuwe_tron-film.jpg?itok=5oKDYfyC",
+                width: "625",
+                height: "375"
+              },
+
+
+              {
+                src: "https://www.rtlnieuws.nl/sites/default/files/content/images/2020/03/03/harry%20styles.jpg?itok=d0oI_ZXn&offsetX=0&offsetY=26&cropWidth=1023&cropHeight=575&width=1024&height=576&impolicy=dynamic",
+                width: "625",
+                height: "375"
+              },
+
+              {
+                src: "https://images0.persgroep.net/rcs/M4Oz8gVbLqPXvRPdfHjMYGMFxXo/diocontent/175625487/_fitwidth/694/?appId=21791a8992982cd8da851550a453bd7f&quality=0.8",
+                width: "625",
+                height: "375"
+              },
+
+              {
+                src: "https://images0.persgroep.net/rcs/sSXlQJJDVmIBw1uiZyQK1jhNemU/diocontent/179091177/_fitwidth/694/?appId=21791a8992982cd8da851550a453bd7f&quality=0.8",
+                width: "625",
+                height: "375"
+              },
+
+              {
+                src: "https://cdn.pijper.io/source/grazia/grazia/2019/11/liam_hemsworth.jpg",
+                width: "625",
+                height: "375"
+              },
+
+              {
+                src: "https://www.rtlboulevard.nl/sites/default/files/ANP201020299-1.jpg?itok=uh8ti3xA&offsetX=0&offsetY=0&cropWidth=1023&cropHeight=575&width=1024&height=576&impolicy=dynamic",
+                width: "625",
+                height: "375"
+              },
+
+              {
+                src: "https://images0.persgroep.net/rcs/6ICoNh5MxIdgMnhhkteH43X3IpA/diocontent/179958176/_fitwidth/694/?appId=21791a8992982cd8da851550a453bd7f&quality=0.8",
+                width: "625",
+                height: "375"
+              },
+
+              {
+                src: "https://media.vanityfair.com/photos/5fe232b5c97c041ce0e7aabf/3:2/w_2999,h_1999,c_limit/452500982",
+                width: "625",
+                height: "375"
+              },
+
+              {
+                src: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/drake-baby-adonis-sophie-brusseaux-1585660666.jpg?crop=1.00xw:0.346xh;0,0.0409xh&resize=1200:*",
+                width: "625",
+                height: "375"
+              },
+
+              {
+                src: "https://images0.persgroep.net/rcs/IZDcu2sRTZOFmqP1bslr02umNB8/diocontent/179474812/_fitwidth/694/?appId=21791a8992982cd8da851550a453bd7f&quality=0.8",
+                width: "625",
+                height: "375"
+              },
+
+              {
+                src: "https://media.nu.nl/m/yd8xpq8akbvw_xwd640.jpg/leonardo-dicaprio-wordt-tegenspeler-jennifer-lawrence-in-netflix-comedy.jpg",
+                width: "625",
+                height: "375"
+              },
+
+              {
+                src: "https://www.hitkrant.nl/content/uploads/2017/12/IanSomerhalder.png",
+                width: "625",
+                height: "375"
+              },
+
+              {
+                src: "https://media.nu.nl/m/e3yxl8maicwa_wd1280.jpg/nick-jonas-heeft-een-rib-gebroken-bij-een-fietsongeluk.jpg",
+                width: "625",
+                height: "375"
+              },
+
+              {
+                src: "https://www.rtlboulevard.nl/sites/default/files/ANP130118098-1.jpg?itok=PeyRu7mj&width=620&height=349&impolicy=semi_dynamic",
+                width: "625",
+                height: "375"
+              },
+
+              {src: "https://www.rtlboulevard.nl/sites/default/files/styles/liggend_hoge_resolutie/public/content/images/2019/04/16/ANP-58411151.jpg?h=05edacd7&itok=7HNa0CfY",
+               width: "625",
+               height: "375"
+            
+               }
+
+      
+                  
+      
+      
+         
+      ];  
+                
+              //find the length of the array of images  
+              var arrayLength = imageArray.length;  
+              var newArray = [];  
+              for (var i = 0; i < arrayLength; i++) {  
+                  newArray[i] = new Image();  
+                  newArray[i].src = imageArray[i].src;  
+                  newArray[i].width = imageArray[i].width;  
+                  newArray[i].height = imageArray[i].height;
+                  newArray[i].display = imageArray[i].display;  
+                  newArray[i].margin = imageArray[i].margin;  
+              }  
+               
+            // create random image number  
+            function getRandomNum(min, max)   
+            {  
+                // generate and return a random number for the image to be displayed   
+                imgNo = Math.floor(Math.random() * (max - min + 1)) + min;  
+                return newArray[imgNo];  
+            }    
+            
+            // 0 is first image and (preBuffer.length - 1) is last image of the array  
+            var newImage = getRandomNum(0, newArray.length - 1);  
+             
+            // remove the previous images  
+            var images = document.getElementsByTagName('img');  
+            var l = images.length;  
+            for (var p = 0; p < l; p++) {  
+               images[0].parentNode.removeChild(images[0]);  
+            }  
+            // display the new random image    
+            document.body.appendChild(newImage);  
+          }  
+
+          
+            
+      
+
+
+
+    
+            
+            
+            
+            </script> 
+          </head>
+
+<body id ="bodyMan">  
+  
+  
+  <div>  
+   
+  
+  <button onclick="displayRandomImages();" id="Button1" > Hot </button>  
+  <button onclick="displayRandomImages();" id="Button2" > Not </button>  
+  
+  </div>  
+  <img src="https://www.linda.nl/lindanl-assets/uploads/2020/08/10115319/bram-krikke-e1597053243694-600x337.png"  alt="Voorbeeld" id="VoorbeeldFoto"> 
+     
+  </body>  
+
+</html>
+ 

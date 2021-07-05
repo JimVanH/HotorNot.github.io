@@ -1,0 +1,219 @@
+<html> 
+    <head>
+      <link href="./resources/css/home.css" type="text/css" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+        <title>
+HotorNot 
+        </title> 
+        <script>  
+          function displayRandomImages()   
+          {  
+             //array of images with image location, height, and width  
+             var imageArray = [  
+              
+             {  
+               src: "https://media.distractify.com/brand-img/0N5RcozxQ/2160x1131/loren-gray-1595627294896.jpg",  
+               width: "625",
+               height: "375"
+             },   
+             {  
+               src: "https://yhstars.com/wp-content/uploads/2021/01/Carla-Frigo-e1611930075279.jpeg",  
+               width: "625",
+               height: "375" 
+             },  
+                         
+               {
+                 src: "https://www.rtlnieuws.nl/sites/default/files/content/images/2019/11/15/taylor%20swift.jpg?itok=r7Yw8Qai&offsetX=0&offsetY=5&cropWidth=1024&cropHeight=576&width=1024&height=576&impolicy=dynamic",
+                 width: "625",
+                 height: "375"
+               },
+
+               {
+                 src: "https://partyflock.nl/images/artist/134105_404x404_575738/Sophie-Milzink.jpg",
+                 width: "625",
+                 height: "375"
+               },
+
+               {
+                 src: "https://cdn.nos.nl/image/2019/04/08/542266/1008x567.jpg",
+                 width: "625",
+                 height: "375"
+               },
+
+               {
+                 src: "https://www.mediacourant.nl/wp-content/uploads/2020/12/1215-Katja-Schuurman.jpg",
+                 width: "625",
+                 height: "375"
+               },
+
+               {
+                 src: "https://www.showbizz24.be/sites/showbizz24/files/styles/news/public/2021-04/Maxime%20Meiland%20instagram%20maximemeiland.JPG?h=8dcd44eb&itok=zRHy_VYk",
+                 width: "625",
+                 height: "375"
+               },
+
+               {
+                 src: "https://thumbor.pijper.io/Z3wy4py5A7_dotFWh4ecUcGEj00=/1896x1066/top/filters:format(webp)/https://cdn.pijper.io/2021/06/7j1xGUAPn871RR1622722512.jpg",
+                 width: "625",
+                 height: "375"
+               },
+
+               {
+                 src: "https://www.mediacourant.nl/wp-content/uploads/2021/06/0628-Jaimie-Vaes.jpg",
+                 width: "625",
+                 height: "375"
+               },
+               {
+                 src: "https://andc-scale.livewallcampaigns.com/imageScaled/?site=andc&file=1596704132_monica-geuze-header.jpg&w=1200&h=675&cropped=1",
+                 width: "625",
+                 height: "375"
+               },
+               {
+                 src: "https://thumbor.pijper.io/Z3wy4py5A7_dotFWh4ecUcGEj00=/1896x1066/top/filters:format(webp)/https://cdn.pijper.io/2021/06/7j1xGUAPn871RR1622722512.jpg",
+                 width: "625",
+                 height: "375"
+               },
+
+
+
+               {
+                 src: "https://media.nu.nl/m/9sax6qdam4t2_xwd640.jpg/emma-stone-en-adele-aanwezig-op-bruiloft-van-jennifer-lawrence.jpg",
+                 width: "625",
+                 height: "375"
+               },
+
+               {
+                 src: "https://images0.persgroep.net/rcs/NAM8rugK2Ek4Lfb3--DObC9HEIk/diocontent/132302826/_fitwidth/694/?appId=21791a8992982cd8da851550a453bd7f&quality=0.8",
+                 width: "625",
+                 height: "375"
+               },
+
+               {
+                 src: "https://www.rtlboulevard.nl/sites/default/files/content/images/2019/06/03/ANP-57292634.jpg?itok=XKUKnQas&offsetX=0&offsetY=15&cropWidth=1026&cropHeight=577&width=1024&height=576&impolicy=dynamic",
+                 width: "625",
+                 height: "375"
+               },
+
+               {
+                 src: "https://images0.persgroep.net/rcs/WY7LDSxCoRmCKSOhx_oezZRA6As/diocontent/173467611/_fitwidth/694/?appId=21791a8992982cd8da851550a453bd7f&quality=0.8",
+                 width: "625",
+                 height: "375"
+               },
+
+               {
+                 src: "https://static.nieuwsblad.be/Assets/Images_Upload/2019/08/28/3f405688-c424-11e9-93e6-9e0b7f1c65e5_web_scale_0.6349207_0.6349207__.jpg?maxheight=280&maxwidth=400",
+                 width: "625",
+                 height: "375"
+               },
+
+               {
+                 src: "https://media.nu.nl/m/da3xi5yas8lg_xwd640.jpg/emma-stone-zou-bevallen-zijn-van-eerste-kind.jpg",
+                 width: "625",
+                 height: "375"
+               },
+
+               {
+                 src: "https://media.nu.nl/m/n1hxc1cakj31_wd1280.jpg/mila-kunis-speelt-hoofdrol-in-boekverfilming-luckiest-girl-alive.jpg",
+                 width: "625",
+                 height: "375"
+               },
+
+               {
+                 src: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/actress-emma-watson-is-seen-on-march-25-2014-in-new-york-news-photo-1621395289.",
+                 width: "625",
+                 height: "375"
+               },
+
+               {
+                 src: "https://images0.persgroep.net/rcs/K0LqxK5O1BZdshF0AbcrQ1LobOk/diocontent/175484545/_fitwidth/694/?appId=21791a8992982cd8da851550a453bd7f&quality=0.8",
+                 width: "625",
+                 height: "375"
+               },
+
+               {
+                 src: "https://media.nu.nl/m/lcrxk7ga7ezq_wd1280.jpg/natalie-portman-mede-investeerder-nieuwe-amerikaanse-vrouwenvoetbalclub.jpg",
+                 width: "625",
+                 height: "375"
+               },
+
+               {
+                 src: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/kim-kardashian-vaticaan-dresscode-1625030599.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*",
+                 width: "625",
+                 height: "375"
+               },
+
+               {
+                 src: "https://www.cosmogirl.nl/content/uploads/2020/01/vanessahudgens.jpg",
+                 width: "625",
+                 height: "375"
+               },
+
+
+               {
+                 src: "https://media.nu.nl/m/m1mxsa2alnem_xwd640.jpg/anna-kendrick-heeft-iets-met-game-of-thrones-acteur.jpg",
+                 width: "625",
+                 height: "375"
+               },
+              ];  
+                
+              //find the length of the array of images  
+              var arrayLength = imageArray.length;  
+              var newArray = [];  
+              for (var i = 0; i < arrayLength; i++) {  
+                  newArray[i] = new Image();  
+                  newArray[i].src = imageArray[i].src;  
+                  newArray[i].width = imageArray[i].width;  
+                  newArray[i].height = imageArray[i].height;
+                  newArray[i].display = imageArray[i].display;  
+                  newArray[i].margin = imageArray[i].margin;  
+              }  
+               
+            // create random image number  
+            function getRandomNum(min, max)   
+            {  
+                // generate and return a random number for the image to be displayed   
+                imgNo = Math.floor(Math.random() * (max - min + 1)) + min;  
+                return newArray[imgNo];  
+            }    
+            
+            // 0 is first image and (preBuffer.length - 1) is last image of the array  
+            var newImage = getRandomNum(0, newArray.length - 1);  
+             
+            // remove the previous images  
+            var images = document.getElementsByTagName('img');  
+            var l = images.length;  
+            for (var p = 0; p < l; p++) {  
+               images[0].parentNode.removeChild(images[0]);  
+            }  
+            // display the new random image    
+            document.body.appendChild(newImage);  
+          }  
+
+          
+            
+      
+
+
+
+    
+            
+            
+            
+            </script> 
+          </head>
+
+<body id ="bodyVrouw">  
+  <div>  
+   
+  
+  <button onclick="displayRandomImages();" id="Button1" > Hot </button>  
+  <button onclick="displayRandomImages();" id="Button2" > Not </button>  
+  
+  </div>  
+   <img src="https://media.distractify.com/brand-img/bncAYy5Yd/2160x1131/charli-damelio-1595627193647.jpg" id="voorbeeldFotoVrouw">
+     
+  </body>  
+
+</html>

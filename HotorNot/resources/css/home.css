@@ -1,0 +1,190 @@
+
+.genderMan{ 
+    text-align:left;
+    margin-left: 250px;
+    margin-top: 50px;
+    position: relative;
+    display: inline-block;
+    font-family: 'STIX Two Math', serif;
+    
+
+    
+}
+
+
+.genderVrouw {
+    text-align: right;
+    margin-bottom: 400px;
+    margin-right: 200px;
+    display: inline-block;
+    margin-left: 600px;
+    font-family: 'STIX Two Math', serif;
+    
+}
+
+h1{
+    font-size: 40px;
+}
+
+  #DivGender {
+      margin-top: 60px;
+      font-size: 20px;
+  }
+
+#homebody{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpKFFJloB0Fein-ZKqUc1Z7Tg3Qn0gDEiqzgJzlaj04r-ao2dq6vgFMGFxbAb_aF3LDEw&usqp=CAU);
+    background-size: 100%;
+    
+    
+    
+}
+
+
+#Man {
+    color:whitesmoke;
+    text-decoration: rgb(7, 27, 139);
+    font-size: 50px;
+    
+}
+
+#Vrouw{
+    color:whitesmoke;
+    text-decoration: rgb(7, 27, 139);
+    font-size: 50px;
+
+}
+
+#GenderKeuze {
+    color: whitesmoke;
+    margin-bottom: 200px;
+    margin-top: 20px;
+    font-family: 'STIX Two Math', serif; 
+    
+}
+
+#Gender {
+    margin-top: 100
+}
+
+#DivGender {
+    text-align: center; 
+    
+}
+
+#Buttons {
+    text-align: center; 
+    
+    
+}
+
+#button1 {
+    width: 150px; 
+    height: 75px; 
+    color: white;
+    background-color:green;
+    border-style:double;
+    border-color: darkgray;
+    margin-top:20px;
+    margin-bottom: 20px;
+    display: center; 
+    padding: 15px 25px; 
+    font-size: 24px; 
+    cursor: pointer; 
+    text-align: center; 
+    box-shadow:darkgrey;
+    border: none; 
+    border-radius: 15px; 
+    outline: none; 
+    font-family: 'Staatliches', serif; 
+    margin-left: 30%;
+}
+
+#button1:hover {
+    background-color: greenyellow;
+}
+
+#button1:active {
+    background-color:grey;
+    box-shadow: 0 5px black;
+    transform: translateY(4px);
+}
+
+#button2 {
+    width: 150px; 
+    height: 75px; 
+    color: white;
+    background-color:red;
+    border-style:double;
+    border-color: darkgray;
+    margin-top:20px;
+    margin-bottom: 20px;
+    display: ; 
+    padding: 15px 25px; 
+    font-size: 24px; 
+    cursor: pointer; 
+    text-align: center; 
+    box-shadow:darkgrey;
+    border: none; 
+    border-radius: 15px; 
+    outline: none;
+    Font-family: 'Staatliches' serif; 
+    
+
+    
+} 
+
+#button2:hover {
+    background-color:tomato;
+}
+
+#button2:active {
+    background-color:grey;
+    box-shadow: 0 5px black;
+    transform: translateY(4px);
+}
+
+#bodyMan {
+background-color:rgb(7, 27, 139); 
+height: 100%;
+width: 40%;
+margin-left: 30%; }
+
+
+
+
+ 
+
+
+#VoorbeeldFoto {
+    border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 5px;
+  width: 600px;
+  height: 350px;
+  display: center; 
+  
+  
+  
+  
+}
+
+#bodyVrouw {
+    background-color:lightcoral; 
+    height: 100%;
+    width: 40%; 
+    margin-left: 30%; 
+}
+
+#voorbeeldFotoVrouw {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 5px;
+    width: 625px;
+    height: 400px;
+    display: center; 
+}
+
+    
+
+
+  
